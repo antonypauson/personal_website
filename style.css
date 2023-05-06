@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wholepage{
+    width: 100%;
+    height: 100vh;
+    background-color: #317874;
+    background-position: center;
+    background-size: cover;
+}
+navbar{
+    display: flex;
+    padding-top: 37px;
+    justify-content: space-between;
+    padding-left: 98px;
+    padding-right: 98px;
+    align-items: center;
+}
+.mylogo{
+    font-size: 45px;
+    color: #E2D2F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 650;
+    cursor: pointer;
+}
+navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 40px 60px;
+}
+ul li a{
+    font-size: 25px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #E2D2F9;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #FC766A;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/*About me*/
+.aboutme{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    box-sizing: border-box;
+    background-color: #E2D2F9;
+}
+
+/*My Work*/
+.myworks{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    box-sizing: border-box;
+    background-color: #317874;
+}
+/*Contact me*/
+.contactme{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    box-sizing: border-box;
+    background-color: #E2D2F9;
+}
+.contactme .heading{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.heading h1{
+    color: #317874;
+    font-weight: 700;
+    font-size: 50px;
+}
+.contactbox{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: "form info" "form map";
+    grid: gap 20px;
+    margin-top: 2%;
+    margin-left: 60px;
+    margin-bottom: 100%;
+    margin-right: 35%;
+    background-color: #FC766A;
+    height: 64vh;
+}
+.contactform{
+    padding: 30px;
+    color: black;
+}
+.contactform h3{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form{
+    grid-area: form;
+}
+.contactformbox{
+    position: relative;
+    width: 100%;
+}
+.contactformbox .firstrow{
+    display: flex;
+    gap: 22px;
+    
+    margin-top: 12px;
+    width: 100%;
+}
+.inputinformation span{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inputinformation input{
+    padding: 25px;
+    font-size: 22px;
+    outline: none;
+    border: 1px solid #333;
+}
+.inputinformation .secondrow{
+    display: flex;
+    width: 100%;
+}
+.inputinformation textarea{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    min-height: 100px;
+    border: none;
+    border: 1px #333;
+    resize: none;
+    font-size: 15px;
+}
+.inputinformation input[type="submit"]{
+    background-color: #E2D2F9;
+    border: none;
+    padding: 16px 18px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.inputinformation input[type="submit"]:hover{
+    color: #FC766A;
+}
