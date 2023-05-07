@@ -118,6 +118,34 @@ button:hover{
     width: 350px;
     margin-left: 98px;
 }
+.aboutme-info{
+    display: inline;
+    margin-bottom: 25px;
+}
+.aboutme-info h1{
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 30px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #317874;
+}
+.aboutme-info h2{
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 38px;
+    color: #FC766A;
+    font-size: 36px;
+}
+.aboutme-info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 3px;
+    margin-bottom: 42;
+    font-size: 23px;
+}
 
 /*My Work*/
 .myworks{
