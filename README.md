@@ -15,7 +15,8 @@ This is my first website that shows my resume. Contains a little bio about mysel
 ## Requirements
 * A computer, Ipad, phone or tablet
 * A stable Internet connection
-* A rough sketch of how your website should look
+* A rough sketch of how your website should look: Homepage, About Page, My works page and contact me page.
+
 * Vscode where you will use in coding
 * A Github Account
 * Reference material where you will engage & learn new techniques
@@ -23,6 +24,24 @@ This is my first website that shows my resume. Contains a little bio about mysel
 ### **Setup Process**
 ---
 # **Github Pages**
+* Using Git and Github
+* Inserting git
+* Working with README.md
+* Git Branching
+* Commiting changes
+* Git push
+* Merging Branches
+
+## Following the git sequence
+---
+* git init
+* git add .
+* git commit -m 'message'
+* git create remote
+* git push origin master
+### Helpful materials
+##### https://htmlreference.io/
+##### https://cssreference.io/
 
 # **Copyright**
                     GNU GENERAL PUBLIC LICENSE

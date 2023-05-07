@@ -45,23 +45,38 @@ a{
     text-decoration: none;
 }
 .homecontent{
-    display: inline-block;
-    padding: 100px;
+    display: relative;
+    padding: 50px;
 }
 .homecontent h2{
-    font-size: 78px;
+    font-size: 52px;
     color: #E2D2F9;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
+    top: -33px;
+    bottom: 29px;
+    
 }
 .homecontent span{
     color: black;
 }
-.homecontent p{
-    color: #E2D2F9;
-    font-size: 45px;
+.homecontent h3{
+    color: #FC766A;
+    font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+    position: relative;
+    bottom: -1px;
+    top: -8px;
+}
+.homecontent p{
+    font-size: 22px;
+    color: #E2D2F9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -33px;
+    text-align: justify;
 }
 .homecontent img{
     position: absolute;
@@ -71,10 +86,13 @@ a{
     max-width: 100%;
     height: auto;
     background-size: 80px;
+    margin-bottom: 10px;
 }
 img{
-    width: 480px;
-    
+    width: 450px;
+    margin-bottom: -10px;
+    position:  relative;
+    margin-left: 90px;
 }
 button{
     display: inline-block;
@@ -85,7 +103,8 @@ button{
     text-transform: uppercase;
     background: #E2D2F9;
     padding: 10px 23px;
-    margin-top: 40px;
+    bottom: -30px;
+    top: -6px;
 }
 button a{
     color: black;
@@ -142,11 +161,11 @@ button:hover{
 }
 .aboutme-info p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    word-spacing: 3px;
+    word-spacing: 2px;
     margin-bottom: 42;
-    font-size: 23px;
-    font-weight: 550;
-    line-height: 30px;
+    font-size: 25px;
+    font-weight: 450;
+    line-height: 40px;
 }
 
 /*My Work*/
