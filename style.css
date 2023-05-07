@@ -180,6 +180,15 @@ button:hover{
     margin: auto;
     padding: 100px;
     text-align: center;
+    margin-bottom: -70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.myprojects h1{
+    color: #E2D2F9;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: -105px;
 }
 .samples{
     margin: 2px 0;
@@ -192,8 +201,16 @@ button:hover{
     box-sizing: border-box;
     background: #FC766A;
     border-radius: 15px;
-    padding: 48px 20px;
+    padding: 70px 20px;
     flex-basis: 30%;
+}
+.thesamples h2{
+    color: #E2D2F9;
+    margin: 15px 0;
+    top: -4px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
 }
 
 
