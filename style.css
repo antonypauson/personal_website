@@ -44,7 +44,59 @@ ul li a:hover{
 a{
     text-decoration: none;
 }
-
+.homecontent{
+    display: inline-block;
+    padding: 100px;
+}
+.homecontent h2{
+    font-size: 78px;
+    color: #E2D2F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.homecontent span{
+    color: black;
+}
+.homecontent p{
+    color: #E2D2F9;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.homecontent img{
+    position: absolute;
+    margin-left: 600px;
+    bottom: 100px;
+    padding: auto auto;
+    max-width: 100%;
+    height: auto;
+    background-size: 80px;
+}
+img{
+    width: 500px;
+}
+button{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 200;
+    color: #E2D2F9;
+    border-radius: 2px solid transparent;
+    text-transform: uppercase;
+    background: #E2D2F9;
+    padding: 10px 23px;
+    margin-top: 40px;
+}
+button a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+    font-size: 18px;
+}
+button:hover{
+    background: #FC766A;
+    border: 2px solid transparent;
+    transform: translate(10px);
+}
 
 
 /*About me*/
